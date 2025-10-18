@@ -19,6 +19,7 @@ public class TC_DWS_002_Test extends baseclass {
 	
 	Homepage hp=new Homepage(driver);
 	hp.getComputerlink().click();
+	hp.getComputerlink().click();
 	Assert.assertEquals(driver.getTitle(), "Demo Web Shop.computers","computer page is not displayed");
 	test.log(Status.PASS, "computer page is displayed");
 	
@@ -27,3 +28,4 @@ public class TC_DWS_002_Test extends baseclass {
 	}
 
 }
+
